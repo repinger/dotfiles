@@ -1,0 +1,84 @@
+{
+	"workbench.colorTheme": "Moxer",
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "afterDelay",
+	"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'",
+	"git.confirmSync": false,
+	"extensions.ignoreRecommendations": true,
+	"workbench.editor.enablePreview": false,
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": true,
+	"files.autoSaveDelay": 1,
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"editor.rulers": [],
+	"terminal.external.linuxExec": "/usr/bin/kitty",
+	"update.mode": "manual",
+	"telemetry.telemetryLevel": "off",
+	"git.allowForcePush": true,
+	"git.alwaysSignOff": true,
+	"codesnap.realLineNumbers": true,
+	"codesnap.showWindowControls": false,
+	"git.confirmForcePush": false,
+	"arduino.path": "/usr/local/bin",
+	"arduino.clearOutputOnBuild": true,
+	"arduino.enableUSBDetection": true,
+	"explorer.confirmDelete": false,
+	"fiveServer.openTerminal": false,
+	"arduino.analyzeOnOpen": false,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2,
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"liveServer.settings.fullReload": true,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"git.mergeEditor": false,
+	"prettier.useTabs": true,
+	"settingsSync.ignoredSettings": [],
+	"settingsSync.ignoredExtensions": [],
+	"editor.minimap.enabled": false,
+	"workbench.startupEditor": "none",
+	"editor.multiCursorLimit": 100000,
+	"editor.tabCompletion": "on",
+	"editor.indentSize": "tabSize",
+	"editor.wordWrap": "on",
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.emptyWindow": false,
+	"[c]": {
+		"editor.tabSize": 8,
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"[php]": {
+		"editor.tabSize": 2
+	},
+	"[cpp]": {
+		"editor.tabSize": 8,
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"[shellscript]": {
+		"editor.tabSize": 4,
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"[python]": {
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"[yaml]": {
+		"editor.fontFamily": "'Hack', 'monospace', monospace, 'Droid Sans Fallback'"
+	},
+	"terminal.integrated.cursorBlinking": true,
+	"diffEditor.maxFileSize": 0,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"diffEditor.ignoreTrimWhitespace": false
+}
