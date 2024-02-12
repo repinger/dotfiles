@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -e
+
+for dir in */; do
+    if [[ -f ${dir}.path ]]; then
+        dest=$(eval echo $(<${dir}.path))
+
+        cp -r ${dir}* ${dest}
+        echo "[+] Files copied from ${dir} to ${dest}"
+    else
+        echo "[!] Error: .path file not found in ${dir}"
+    fi
+done
