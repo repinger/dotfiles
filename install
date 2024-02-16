@@ -2,11 +2,14 @@
 
 set -e
 
+shopt -s dotglob
+
 for dir in */; do
+    [[ $dir == ".git/" ]] && continue
     if [[ -f ${dir}.path ]]; then
         dest=$(eval echo $(<${dir}.path))
 
-        cp -r ${dir}* ${dest}
+        find ${dir} -type f -not -name '.path' -exec cp -r {} ${dest} \;
         echo "[+] Files copied from ${dir} to ${dest}"
     else
         echo "[!] Error: .path file not found in ${dir}"
