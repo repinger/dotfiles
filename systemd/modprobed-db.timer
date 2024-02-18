@@ -1,0 +1,9 @@
+[Unit]
+Description=Run modprobed-db store every 30 minutes
+
+[Timer]
+OnUnitActiveSec=30min
+Unit=modprobed-db.service
+
+[Install]
+WantedBy=timers.target

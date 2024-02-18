@@ -1,0 +1,7 @@
+[Unit]
+Description=Run modprobed-db store
+Documentation=man:modprobed-db(8)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/modprobed-db store
