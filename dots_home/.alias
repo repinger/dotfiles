@@ -1,0 +1,5 @@
+alias cat="bat"
+alias copy="xclip -selection clipboard"
+alias dig="kdig"
+alias gzip="pigz"
+alias ip="ip -c"
